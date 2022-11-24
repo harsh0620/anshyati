@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+  background-color: antiquewhite;
+} */
+html{
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+.outlet::-webkit-scrollbar{
+    display: none;
+}
